@@ -13,6 +13,7 @@
 		1DAA2CB723F099F400273410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA2CB623F099F400273410 /* Assets.xcassets */; };
 		1DAA2CBA23F099F400273410 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA2CB923F099F400273410 /* Preview Assets.xcassets */; };
 		1DAA2CBD23F099F400273410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DAA2CBB23F099F400273410 /* LaunchScreen.storyboard */; };
+		84E3DC182CDD4CD20080D349 /* FloatingTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3DC172CDD4CCF0080D349 /* FloatingTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1DAA2CB923F099F400273410 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DAA2CBC23F099F400273410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DAA2CBE23F099F400273410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E3DC172CDD4CCF0080D349 /* FloatingTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,9 @@
 		1DAA2CAF23F099F300273410 /* FloatingTabBarUsingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				84E3DC192CDD4D2C0080D349 /* Views */,
 				1DAA2CB023F099F300273410 /* AppDelegate.swift */,
 				1DAA2CB223F099F300273410 /* SceneDelegate.swift */,
-				1DAA2CB423F099F300273410 /* ContentView.swift */,
 				1DAA2CB623F099F400273410 /* Assets.xcassets */,
 				1DAA2CBB23F099F400273410 /* LaunchScreen.storyboard */,
 				1DAA2CBE23F099F400273410 /* Info.plist */,
@@ -73,6 +75,15 @@
 				1DAA2CB923F099F400273410 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E3DC192CDD4D2C0080D349 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E3DC172CDD4CCF0080D349 /* FloatingTabbar.swift */,
+				1DAA2CB423F099F300273410 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				1DAA2CB123F099F300273410 /* AppDelegate.swift in Sources */,
 				1DAA2CB323F099F300273410 /* SceneDelegate.swift in Sources */,
 				1DAA2CB523F099F300273410 /* ContentView.swift in Sources */,
+				84E3DC182CDD4CD20080D349 /* FloatingTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
